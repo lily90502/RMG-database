@@ -515,7 +515,7 @@ entry(
         T0 = (1, 'K'),
         Tmin = (2000, 'K'),
         Tmax = (4000, 'K'),
-    ),
+    ),     
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
     longDesc = 
