@@ -23,3 +23,165 @@ T.N. Rao, S.S. Collier, J.G. Calvet, JACS, 1969, 91(7), 1616-1612, doi: 10.1021/
 """,
 )
 
+entry(
+    index = 1,
+    label = "C2H4 => C2H4-2",
+    degeneracy = 1.0,
+    reversible = False,
+    kinetics = Arrhenius(
+        A = (1e+08, 's^-1'),
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: Y_12_00',
+    ),
+    rank = 11,
+    shortDesc = u"""see description above""",
+)
+
+entry(
+    index = 2,
+    label = "C3H6 => C3H6-2",
+    degeneracy = 1.0,
+    reversible = False,
+    kinetics = Arrhenius(
+        A = (6.31e+07, 's^-1'),
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: Y_12_10',
+    ),
+    rank = 11,
+    shortDesc = u"""see description above""",
+)
+
+entry(
+    index = 3,
+    label = "C5H10 => C5H10-2",
+    degeneracy = 1.0,
+    reversible = False,
+    kinetics = Arrhenius(
+        A = (2.51e+07, 's^-1'),
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: Y_12_30',
+    ),
+    rank = 11,
+    shortDesc = u"""see description above""",
+)
+
+entry(
+    index = 4,
+    label = "C6H12 => C6H12-2",
+    degeneracy = 1.0,
+    reversible = False,
+    kinetics = Arrhenius(
+        A = (1.58e+07, 's^-1'),
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: Y_12_40',
+    ),
+    rank = 11,
+    shortDesc = u"""see description above""",
+)
+
+entry(
+    index = 5,
+    label = "C4H6 => C4H6-2",
+    degeneracy = 1.0,
+    reversible = False,
+    kinetics = Arrhenius(
+        A = (5.01e+07, 's^-1'),
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: Y_12_01',
+    ),
+    rank = 11,
+    shortDesc = u"""see description above""",
+)
+
+entry(
+    index = 6,
+    label = "C8H10 => C8H10-2",
+    degeneracy = 1.0,
+    reversible = False,
+    kinetics = Arrhenius(
+        A = (1.26e+07, 's^-1'),
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: Y_12_03',
+    ),
+    rank = 11,
+    shortDesc = u"""see description above""",
+)
+
+entry(
+    index = 7,
+    label = "C10H12 => C10H12-2",
+    degeneracy = 1.0,
+    reversible = False,
+    kinetics = Arrhenius(
+        A = (6.31e+06, 's^-1'),
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: Y_12_04',
+    ),
+    rank = 11,
+    shortDesc = u"""see description above""",
+)
+
+entry(
+    index = 8,
+    label = "C9H12 => C9H12-2",
+    degeneracy = 1.0,
+    reversible = False,
+    kinetics = Arrhenius(
+        A = (7.94e+06, 's^-1'),
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: Y_12_13',
+    ),
+    rank = 11,
+    shortDesc = u"""see description above""",
+)
+
+entry(
+    index = 9,
+    label = "C7H12 => C7H12-2",
+    degeneracy = 1.0,
+    reversible = False,
+    kinetics = Arrhenius(
+        A = (1.26e+07, 's^-1'),
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: Y_12_31',
+    ),
+    rank = 11,
+    shortDesc = u"""see description above""",
+)
+
