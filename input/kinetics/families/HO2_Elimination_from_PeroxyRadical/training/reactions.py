@@ -22,7 +22,7 @@ entry(
         title = 'Automatic Estimation of Pressure-Dependent Rate Coefficients',
         journal = "'Phys. Chem. Chem. Phys.'",
         volume = "'14'",
-        pages = """'1131-1155'""",
+        pages = "'1131-1155'",
         year = "'2012'",
     ),
     referenceType = "theory",
@@ -35,5 +35,259 @@ using Gaussian 03 and MOLPRO. High-pressure-limit rate coefficient computed
 using Variflex.
 DOI: 10.1039/C1CP22765C
 """,
+)
+
+entry(
+    index = 1,
+    label = "C2H5O2 <=> C2H4 + HO2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (3e+10, 's^-1'),
+        n = 1,
+        Ea = (125.52, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: R2OO',
+    ),
+    rank = 0,
+)
+
+entry(
+    index = 2,
+    label = "C2H5O2 <=> C2H4 + HO2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (4.68e+07, 's^-1'),
+        n = 1.69,
+        Ea = (124.683, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: R2OO_2H_2H',
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
+)
+
+entry(
+    index = 3,
+    label = "C3H7O2 <=> C3H6 + HO2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (9.58e+07, 's^-1'),
+        n = 1.46,
+        Ea = (123.01, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: R2OO_HNd_2H',
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
+)
+
+entry(
+    index = 4,
+    label = "C4H9O2 <=> C4H8 + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.06e+08, 's^-1'),
+        n = 1.19,
+        Ea = (125.102, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: R2OO_NdNd_2H',
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
+)
+
+entry(
+    index = 5,
+    label = "C3H7O2-2 <=> C3H6-2 + HO2",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(
+        A = (5.874e+09, 's^-1'),
+        n = 1.17,
+        Ea = (125.938, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: R2OO_2H_HNd',
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
+)
+
+entry(
+    index = 6,
+    label = "C4H9O2-2 <=> C4H8-2 + HO2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (3.3e+09, 's^-1'),
+        n = 1.01,
+        Ea = (123.846, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: R2OO_HNd_HNd',
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
+)
+
+entry(
+    index = 7,
+    label = "C5H11O2 <=> C5H10 + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.48e+10, 's^-1'),
+        n = 0.57,
+        Ea = (125.102, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: R2OO_NdNd_HNd',
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
+)
+
+entry(
+    index = 8,
+    label = "C4H9O2-3 <=> C4H8-3 + HO2",
+    degeneracy = 9.0,
+    kinetics = Arrhenius(
+        A = (6.732e+10, 's^-1'),
+        n = 1.08,
+        Ea = (124.265, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: R2OO_2H_NdNd',
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
+)
+
+entry(
+    index = 9,
+    label = "C5H11O2-2 <=> C5H10-2 + HO2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1.622e+15, 's^-1'),
+        n = -0.78,
+        Ea = (127.194, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: R2OO_HNd_NdNd',
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
+)
+
+entry(
+    index = 10,
+    label = "C6H13O2 <=> C6H12 + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.1e+19, 's^-1'),
+        n = -1.78,
+        Ea = (132.633, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: R2OO_NdNd_NdNd',
+    ),
+    rank = 5,
+    shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
+)
+
+entry(
+    index = 11,
+    label = "C4H7O2 <=> C4H6 + HO2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (2.4759e+06, 's^-1', '*|/', 5),
+        n = 1.829,
+        Ea = (101.449, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+        comment = 'MRH CBS-QB3 calculations for the reaction CH3-CH(OO)-CH=CH2 => CH2=CH-CH=CH2 + HO2\n\nPrevious RMG estimate for this reaction was an "Average of average" estimate.  This reaction was of\ninterest to MRH/MHS because the butanol model was sensitive to CH3-*CH-CH=CHOH => CH2=CH-CH=CHOH + HO2.\nThe high-p limit kinetics were necessary to estimate a k(T,P) for this PES.  MRH could not find a \nstable TS geometry for the exact reaction.  Instead, I removed the OH group and found\na stable TS for that reaction (the titled reaction for this node).\n\nReactant: 3 hindered rotors were considered (the -OO, -CH3, and -CH=CH2 torsions)\nTS: 0 hindered rotors were considered (MRH attempted to treat the -CH=CH2 torsion as a hindered rotor,\n\tbut with no luck.  The complete 360 degree spin would interfere with the HO2 elimination).\nProduct: 1 hindered rotor was considered (the -CH=CH2 torsion of 1,3-butadiene)\n\nAll external symmetry numbers were set equal to one, with the exception of 1,3-butadience which was set to two.\nThe k(T) was calculated from 600 - 2000 K, in 200 K intervals, and the fitted Arrhenius expression from CanTherm was:\nk(T) = 2.476e+06 * (T/1K)^1.829 * exp(-24.247 kcal/mol / RT) cm3/mol/s.  MRH divided this rate coefficient by\nthree to account for the reaction path degeneracy, yielding the value stored in the rateLibrary.\n\nConverted to training reaction from rate rule: R2OO_2H_HCd',
+    ),
+    rank = 6,
+    shortDesc = u"""MRH CBS-QB3 calculations with 1d h.r. corrections.""",
+)
+
+entry(
+    index = 12,
+    label = "C4H7O2 <=> C4H6 + HO2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (2.4759e+06, 's^-1', '*|/', 5),
+        n = 1.829,
+        Ea = (101.449, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+        comment = 'MRH approximation for the general R2OO_2H_HDe node\n\nMRH computed the rate coefficient for the reaction CH3-CH(OO)-CH=CH2 => CH2=CH-CH=CH2 + HO2 (see node 845).\nThe difference between the R2OO_2H_HDe and CH3CH(OO)CHCH2 nodes is defining the delocalized group (in the\ncase of the CH3CH(OO)CHCH2 node, the -CH=CH2 functional group).  MRH thinks using the kinetics for node 845\nin the event node 846 is hit is reasonable, considering this part of the molecule does not play a role in the\nTS (and it is certainly better than leaving RMG to estimate via "Average of Average").\n\nConverted to training reaction from rate rule: R2OO_2H_HDe',
+    ),
+    rank = 6,
+    shortDesc = u"""Same as node 845 (MRH assumption)""",
+)
+
+entry(
+    index = 13,
+    label = "C2H5O3 <=> C2H4O + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.813e+10, 's^-1', '*|/', 10),
+        n = 0.493,
+        Ea = (123.219, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+        comment = 'MRH CBS-QB3 calculations for the reaction CH3-CH(OO)-OH => CH3-CH=O + HO2\n\nPrevious RMG estimate for this reaction was zero (RMG only allowed HO2 direct elimination\nto occur for species with the structure H-C-C-O-O* ... note the atom next to the hydrogen\nhad to be a carbon).\n\nMRH calculated the rate coefficient using the CBS-QB3 method.  1-d hindered rotor\ncorrections were applied and NO tunneling correction.  The reason no tunneling correction\nwas applied is that the TS is lower in energy than the products, CH3CHO + HO2.\n\nda Silva, Bozzelli, Liang, and Farrell (dx.doi.org/10.1021/jp903210a) recently studied\nthis reaction system (ethanol + O2).  In their calculations (G3B3), they determined a stable\nadduct existed between the reactant CH3CH(OO)OH and the products CH3CHO+HO2.  The adduct is\nstable due to H-bonding.  MRH believes his TS is for the reactant to the adduct.\nComparing my k(T) with the da Silva et al. k(T) (for forming the adduct) shows very\ngood agreement, within a factor of 2 over the valid temperature range.  Furthermore, the\nda Silva et al. calculation for the adduct going to product is between 2-5 orders of\nmagnitude faster than reactants going to adduct, so it is a reasonable assumption\nto say the first step is the rate-limiting step.\n\nComparing my k(T) with two other sources for this reaction (dx.doi.org/10.1021/jp003762p and \nI. Hermans et al., AIAA Journal, 109, (2005), 4303-4311) also shows good agreement.\nI am setting the rank for this k(T) to be 5 (very uncertain).\n\nInformation on the TST calculations:\n\nReactant: 3 hindered rotors were considered (the -OO, -CH3, and -OH torsions)\nTS: 1 hindered rotor was considered (the -CH3 torsion)\nProduct: 1 hindered rotor was considered (the -CH3 torsion of CH3CHO)\n\nAll external symmetry numbers were set equal to one.\nThe k(T) was calculated from 600 - 2000 K, in 200 K intervals, and the fitted Arrhenius expression from CanTherm was:\nk(T) = 6.813e+10 * (T/1K)^0.493 * exp(-11.894 kcal/mol / RT) cm3/mol/s.\n\nConverted to training reaction from rate rule: R2OO_O_HNd',
+    ),
+    rank = 11,
+    shortDesc = u"""MRH CBS-QB3 calculations with 1d h.r. corrections.""",
+)
+
+entry(
+    index = 14,
+    label = "CH3O3 <=> CH2O + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.38e+12, 's^-1', '*|/', 5),
+        n = 0,
+        Ea = (123.219, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (200, 'K'),
+        Tmax = (600, 'K'),
+        comment = 'MRH approximation for the general OCOO node\n\nIn the event RMG finds any H-O-C-O-O* connection, the kinetics used for direct\nHO2 elimination will be those of CH3-CH(OO)-OH => CH3CHO + HO2.\n\nConverted to training reaction from rate rule: R2OO_O',
+    ),
+    rank = 6,
+    shortDesc = u"""Hermans et al. 2005 (doi:10.1021/jp044080v) G2M calculations""",
+)
+
+entry(
+    index = 15,
+    label = "C3H5O2 <=> C3H4 + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.63e+09, 's^-1'),
+        n = 1.11,
+        Ea = (178.657, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: R2OO_0H_2H',
+    ),
+    rank = 10,
+    shortDesc = u"""BMK/cbsb7, HO""",
 )
 
