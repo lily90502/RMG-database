@@ -105,3 +105,51 @@ heat capacity values from frequencies and structures at B3LYP/
 """,
 )
 
+entry(
+    index = 4,
+    label = "H + O <=> HO",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1e+13, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: Y_rad;O_birad',
+    ),
+    rank = 5,
+)
+
+entry(
+    index = 5,
+    label = "H + S <=> HS",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1e+13, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: Y_rad;S_birad',
+    ),
+    rank = 5,
+)
+
+entry(
+    index = 6,
+    label = "H + NH <=> H2N",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1e+13, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+        comment = '\n\nConverted to training reaction from rate rule: Y_rad;N_R_birad',
+    ),
+    rank = 5,
+)
+
